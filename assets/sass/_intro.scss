@@ -1,0 +1,48 @@
+@use 'variables';
+
+.intro {
+  grid-area: intro;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: calc(100vh - 64px - 1rem);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  font-family: variables.$font-family-two;
+
+  .intro__title {
+    margin: .5rem 0;
+    font-size: 3rem;
+  }
+
+  .intro__subtitle {
+    font-size: 2rem;
+  }
+
+  .intro__resume {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 1.2rem;
+    font-family: variables.$font-family-one;
+    font-weight: 500;
+    color: #000;
+    background-color: variables.$btn-resume-background;
+    text-decoration: none;
+  }
+
+  .links {
+    margin: 2rem 0 0 0;
+    width: 70%;
+
+    .links__items {
+      display: flex;
+      justify-content: space-between;
+      
+      .items__link {
+        font-size: 2.5rem;
+        color: inherit;
+      }
+    }
+  }
+}

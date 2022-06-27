@@ -1,0 +1,57 @@
+@use "variables";
+
+.header {
+  position: sticky;
+  top: 0;
+  grid-area: header;
+  background-color: variables.$background-color;
+
+  .nav {
+    padding: 1rem;
+
+
+    .bars {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      z-index: 10;
+      background-color: variables.$background-color;
+    
+      .fa-bars {
+        font-size: 2rem;
+        z-index: inherit;
+        transition: all ease;
+      }
+    }
+
+    .nav__options {
+      position: fixed;
+      left: -105%;
+      top: 60px;
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      font-family: variables.$font-family-one;
+      transition: 0.5s ease-in-out;
+
+
+      .options__item {
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        text-align: center;
+        background-color: variables.$background-color;
+        border-bottom: 1px solid #fff;
+
+        .item__link {
+          text-decoration: none;
+          color: inherit;
+        }
+      }
+    }
+    .options__active {
+      left: 0;
+    }
+  }
+}
