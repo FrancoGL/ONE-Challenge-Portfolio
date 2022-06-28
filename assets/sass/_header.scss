@@ -45,6 +45,8 @@
         border-bottom: 1px solid #fff;
 
         .item__link {
+          display: inline-block;
+          width: 100%;
           text-decoration: none;
           color: inherit;
         }

@@ -1,4 +1,4 @@
-@use 'variables';
+@use "variables";
 
 .intro {
   grid-area: intro;
@@ -11,12 +11,8 @@
   font-family: variables.$font-family-two;
 
   .intro__title {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
     font-size: 3rem;
-  }
-
-  .intro__subtitle {
-    font-size: 2rem;
   }
 
   .intro__resume {
@@ -38,7 +34,7 @@
     .links__items {
       display: flex;
       justify-content: space-between;
-      
+
       .items__link {
         font-size: 2.5rem;
         color: inherit;

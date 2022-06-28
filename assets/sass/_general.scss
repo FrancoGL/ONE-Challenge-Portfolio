@@ -1,4 +1,4 @@
-@use 'variables';
+@use "variables";
 
 html {
   scroll-behavior: smooth;
@@ -9,12 +9,27 @@ body {
   max-width: 1440px;
   box-sizing: border-box;
   display: grid;
-  grid-template-areas: 
-  "header"
-  "main"
-  "footer";
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   grid-template-columns: auto;
   grid-template-rows: repeat(3, auto);
   background-color: variables.$background-color;
   color: variables.$font-color;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: variables.$font-family-two;
+}
+
+p {
+  font-family: variables.$font-family-one;
+}
+
+img {
+  width: 100%;
+  display: block;
 }

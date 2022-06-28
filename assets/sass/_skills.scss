@@ -1,0 +1,28 @@
+@use 'variables';
+
+.skills {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+
+  .skills__list {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .skill__item {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      width: 15%;
+      padding: 1rem;
+      border-radius: 10px;
+      background-color: variables.$skill-background-color;
+
+      .spring {
+        filter: invert(61%) sepia(62%) saturate(396%) hue-rotate(53deg) brightness(89%) contrast(99%);
+      }
+
+      
+    }
+  }
+}

@@ -1,16 +1,19 @@
-@use 'intro';
+@use "intro";
+@use "about";
+@use "skills";
 
 .main {
   padding: 1rem;
   grid-area: main;
   display: grid;
-  grid-template-areas: 
-  "intro"
-  "about"
-  "skills"
-  "education"
-  "projects"
-  "contact";
+  grid-template-areas:
+    "intro"
+    "about"
+    "skills"
+    "education"
+    "projects"
+    "contact";
   grid-template-columns: auto;
-  grid-template-rows: 1fr repeat(5,auto);
+  grid-template-rows: 1fr repeat(5, auto);
+  gap: 2rem;
 }
