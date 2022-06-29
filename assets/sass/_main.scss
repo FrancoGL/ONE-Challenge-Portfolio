@@ -1,6 +1,8 @@
 @use "intro";
 @use "about";
 @use "skills";
+@use "projects";
+@use "footer";
 
 .main {
   padding: 1rem;
@@ -10,10 +12,9 @@
     "intro"
     "about"
     "skills"
-    "education"
     "projects"
     "contact";
   grid-template-columns: auto;
-  grid-template-rows: 1fr repeat(5, auto);
+  grid-template-rows: 1fr repeat(6, auto);
   gap: 2rem;
 }

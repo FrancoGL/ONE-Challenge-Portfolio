@@ -1,6 +1,9 @@
-@use 'variables';
+@use "variables";
 
 .skills {
+  grid-area: skills;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
   margin-bottom: 1rem;
   font-size: 2rem;
 
@@ -19,10 +22,9 @@
       background-color: variables.$skill-background-color;
 
       .spring {
-        filter: invert(61%) sepia(62%) saturate(396%) hue-rotate(53deg) brightness(89%) contrast(99%);
+        filter: invert(61%) sepia(62%) saturate(396%) hue-rotate(53deg)
+          brightness(89%) contrast(99%);
       }
-
-      
     }
   }
 }

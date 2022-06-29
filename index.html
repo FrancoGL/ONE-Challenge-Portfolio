@@ -30,7 +30,9 @@
           <i class="fa-solid fa-bars" id="menu-bars"></i>
         </div>
         <ul class="nav__options" id="menu-options">
-          <li class="options__item"><a href="#intro" class="item__link">Home</a></li>
+          <li class="options__item">
+            <a href="#intro" class="item__link">Home</a>
+          </li>
           <li class="options__item">
             <a href="#about" class="item__link">About</a>
           </li>
@@ -60,12 +62,29 @@
         <div class="links">
           <ul class="links__items">
             <li>
-              <a href="https://github.com/FrancoGL" target="_blank" class="items__link"><i class="fa-brands fa-github"></i></a>
+              <a
+                href="https://github.com/FrancoGL"
+                target="_blank"
+                class="items__link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/franco-lorca/" target="_blank" class="items__link"><i class="fa-brands fa-linkedin"></i></a>
+              <a
+                href="https://www.linkedin.com/in/franco-lorca/"
+                target="_blank"
+                class="items__link"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </li>
-            <li><a href="mailto:lorcafrancog@proton.me" target="_blank" class="items__link"><i class="fa-solid fa-envelope"></i></a></li>
+            <li>
+              <a
+                href="mailto:lorcafrancog@proton.me"
+                target="_blank"
+                class="items__link"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </section>
@@ -73,47 +92,106 @@
         <h2>About</h2>
         <p class="description">
           Hey there! My name is Franco, I am a self-taught Fullstack Developer.
-          I like to learn new things and use them to improve previous projects and develop better projects.
+          I like to learn new things and use them to improve previous projects
+          and develop better projects.
         </p>
       </section>
       <section class="skills" id="skills">
         <div class="hard__skills">
           <h2>Technologies</h2>
           <ul class="skills__list">
-            <li class="skill__item"><img src="./assets/icons/html5.svg" alt=""></li>
-            <li class="skill__item"><img src="./assets/icons/css3.svg" alt=""></li>
-            <li class="skill__item"><img src="./assets/icons/javascript.svg" alt=""></li>
-            <li class="skill__item"><img src="./assets/icons/java.svg" alt=""></li>
-            <li class="skill__item"><img class="spring" src="./assets/icons/spring-boot.svg" alt="" /></li>
-            <li class="skill__item"><img src="./assets/icons/git.svg" alt=""></li>
-            <li class="skill__item"><img src="./assets/icons/sass.svg" alt=""></li>
+            <li class="skill__item">
+              <img src="./assets/icons/html5.svg" alt="" />
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icons/css3.svg" alt="" />
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icons/javascript.svg" alt="" />
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icons/java.svg" alt="" />
+            </li>
+            <li class="skill__item">
+              <img class="spring" src="./assets/icons/spring-boot.svg" alt="" />
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icons/git.svg" alt="" />
+            </li>
+            <li class="skill__item">
+              <img src="./assets/icons/sass.svg" alt="" />
+            </li>
             <li class="skill__item" class="mysql">
-              <img src="./assets/icons/mysql.svg" alt=""/>
+              <img src="./assets/icons/mysql.svg" alt="" />
             </li>
           </ul>
         </div>
       </section>
       <section class="projects" id="projects">
-        <div class="card">
-          <img src="https://i.imgur.com/qUWTXAK.png" alt="Arknights Project" />
-          <h3>ONE - Arknights Hangman</h3>
-          <div class="card__links">
-            <a href="#"></a>
-            <a href="#"></a>
+        <h2>Projects</h2>
+        <div class="container__card">
+          <div class="card">
+            <img
+              class="card__img"
+              src="./assets/img/arknights.webp"
+              alt="Arknights Project"
+            />
+            <h3 class="card__title">Hangman Game</h3>
+            <div class="card__links">
+              <a
+                class="links__item"
+                href="https://github.com/FrancoGL/ONE-Challenge-Hangman-Arknights"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                class="links__item"
+                href="https://francogl.github.io/ONE-Challenge-Hangman-Arknights/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <img src="https://i.imgur.com/y56XD4D.jpg" alt="Arknights Project" />
-          <h3>ONE - Encoder</h3>
-          <div class="card__links">
-            <a href="#"></a>
-            <a href="#"></a>
+          <div class="card">
+            <img
+              class="card__img"
+              src="./assets/img/encoder.webp"
+              alt="Encoder Project"
+            />
+            <h3 class="card__title">Text Encoder</h3>
+            <div class="card__links">
+              <a
+                class="links__item"
+                href="https://github.com/FrancoGL/ONE-Challenge-Text-Encoder"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                class="links__item"
+                href="https://francogl.github.io/ONE-Challenge-Text-Encoder/"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
           </div>
         </div>
       </section>
       <section class="contact" id="contact">
         <form action="#" method="post"></form>
       </section>
+      <footer class="footer">
+        <div class="attribution">
+          <p class="attribution__text">
+            Oracle ONE - Challenge by
+            <a
+              href="https://github.com/FrancoGL"
+              class="attribution__link"
+              target="_blank"
+              >FrancoGL</a
+            >
+          </p>
+        </div>
+      </footer>
     </main>
   </body>
   <script src="./assets/js/menu-active.js"></script>

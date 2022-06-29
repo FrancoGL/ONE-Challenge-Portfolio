@@ -1,6 +1,9 @@
 @use "variables";
 
 .about {
+  grid-area: about;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
   margin-bottom: 1rem;
 
   .description {

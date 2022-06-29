@@ -1,0 +1,41 @@
+@use "variables";
+
+.container__card {
+  grid-area: projects;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  display: flex;
+  justify-content: space-between;
+  font-family: variables.$font-family-one;
+
+  .card {
+    padding-bottom: 1rem;
+    width: 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border-radius: 10px;
+    background-color: variables.$card-background-color;
+    line-height: 1.5;
+
+    .card__img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    .card__title {
+      margin-top: 1rem;
+    }
+
+    .card__links {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+    }
+
+    .links__item {
+      font-size: 2rem;
+    }
+  }
+}
