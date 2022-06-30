@@ -1,0 +1,48 @@
+@media screen and (min-width: 1024px) {
+  .header {
+    .nav {
+      .bars {
+        .fa-bars {
+          display: none;
+        }
+      }
+
+      .nav__options {
+        position: static;
+        flex-flow: row nowrap;
+      }
+    }
+  }
+
+  .main {
+    .intro {
+      .intro__resume {
+        width: 8%;
+      }
+    }
+
+    .about {
+      margin-bottom: 2rem;
+      .description {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .skills {
+    .skills__list {
+      margin-top: 2.5rem;
+      .skill__item {
+        width: 7%;
+      }
+    }
+  }
+
+  .container__card {
+    margin-top: 2.5rem;
+    flex-flow: row wrap;
+    .card {
+      width: 45%;
+    }
+  }
+}

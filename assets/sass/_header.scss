@@ -4,6 +4,8 @@
   position: sticky;
   top: 0;
   grid-area: header;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   background-color: variables.$background-color;
 
   .nav {
