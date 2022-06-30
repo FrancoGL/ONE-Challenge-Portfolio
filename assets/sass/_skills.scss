@@ -20,6 +20,7 @@
       padding: 1rem;
       border-radius: 10px;
       background-color: variables.$skill-background-color;
+      z-index: -1;
 
       .spring {
         filter: invert(61%) sepia(62%) saturate(396%) hue-rotate(53deg)
