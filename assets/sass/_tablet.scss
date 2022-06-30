@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+  .header {
+    .nav {
+      padding: 1.5rem;
+
+      .bars {
+        .fa-bars {
+          font-size: 2.5rem;
+        }
+      }
+
+      .nav__options {
+        .options__item {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .main {
+    padding: 1.5rem;
+
+    .intro {
+
+      .intro__resume {
+        width: 15%;
+      }
+
+      .links {
+        width: 100%;
+
+        .links__items {
+          justify-content: end;
+
+          .items__link {
+            margin: 0 1rem;
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
